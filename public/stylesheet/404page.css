@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a1821;
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.error {
+    width: 560px;
+    height: 225px;
+    margin-right: -10px;
+}
+.starry-sky {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.notfound-copy {
+    color: #fff;
+    position: fixed;
+    top: 25px;
+    right: 10%;
+    text-align: right;
+  }
+  h1 {
+     font-weight: 700;
+    font-size: 40px;
+  }
+
+/* a {
+    padding: 0.7em 1.7em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    background: #0a1821;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 1px 0.3px white, 0px 2px 0.5px 0.2px whitesmoke, 2px 0px 1px 0.2px white;
+} */
+  /* change to alternating star opacities */
+  .all-stars {
+    animation: blinkblink 7s linear infinite;
+  }
+  
+  @keyframes blinkblink {  
+    50% { opacity: 0.1; }
+  }
+  /* mobile test * /
+  @media (max-width: 647px) { 
+    .moon {
+      padding-top: -500px;
+    }
+  }
